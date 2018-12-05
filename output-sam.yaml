@@ -12,7 +12,7 @@ Outputs:
     Value:
       Fn::Sub: https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/uppercase
 Resources:
-  PetStoreFunction:
+  UppercaseFunction:
     Properties:
       CodeUri: s3://run-main1-backend-sandbo-serverlessdeploymentbuck-1c7g34ntbyjlz/f08e939e42bc5ef95d8b7ce93633f3ee
       Events:
