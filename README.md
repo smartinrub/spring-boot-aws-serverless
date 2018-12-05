@@ -1,8 +1,15 @@
 # spring-boot-aws-serverless
 ## Getting Started
-
+### Run on local
 - Package Application
 ```mvn package```
+- Run locally:
+```sam local start-api --template sam.yaml```
+- Hit the endpoint:
+```
+curl -X POST -d hello http://localhost:3000/uppercase
+```
+### Run on AWS
 - Set Profile:
 ```export AWS_PROFILE=default```
 - Login into aws:
