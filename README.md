@@ -23,4 +23,4 @@ aws cloudformation package --template-file sam.yaml --output-template-file outpu
 aws cloudformation deploy --template-file output-sam.yaml --stack-name SpringBootAwsServerless --capabilities CAPABILITY_IAM
 ```
 - Check deployment:
-```https://console.aws.amazon.com/cloudformation```
+https://console.aws.amazon.com/cloudformation
